@@ -15,6 +15,8 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 	
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<title>Adhesol</title>
@@ -26,92 +28,355 @@
 	
 	<section class="section-semi-width section-popular-goods">
     <div class="popular-goods-tabs">
-        <div class="popular-tabs-item popular-tab-active">
+        <div class="popular-tabs-item current-tab" data-tab="tab-mastiki">
             Мастики
         </div>
-        <div class="popular-tabs-item">
+        <div class="popular-tabs-item" data-tab="tab-kraski">
             Краски
         </div>
-        <div class="popular-tabs-item">
-            Клей
-        </div>
     </div>
 
-    <div class="popular-goods-cards">
-        <div class="popular-goods-item">
-            <div class="popular-item-img">
-                <div class="popular-labels">
-                    <div class="popular-hit">Хит</div>
-                    <div class="popular-recomend">Рекомендуем</div>
+    <div id="tab-mastiki" class="popular-goods-cards popular-mastiki current-tab">
+        <div class="swiper mySwiper-popular">
+            <div class="swiper-wrapper">
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Мастика для гидроизолции кровли ELASTOMERIC 911
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 1455 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/krovelnye_mastiki/gidroizolyatsiya_metallicheskoy_i_shifernoy_krovli_elastomeric_911/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Мастика для гидроизолции кровли ELASTOMERIC 911
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 1455 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/krovelnye_mastiki/gidroizolyatsiya_metallicheskoy_i_shifernoy_krovli_elastomeric_911/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Мастика для гидроизолции кровли ELASTOMERIC 911
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 1455 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/krovelnye_mastiki/gidroizolyatsiya_metallicheskoy_i_shifernoy_krovli_elastomeric_911/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Мастика для гидроизолции кровли ELASTOMERIC 911
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 1455 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/krovelnye_mastiki/gidroizolyatsiya_metallicheskoy_i_shifernoy_krovli_elastomeric_911/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Мастика для гидроизолции кровли ELASTOMERIC 911
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 1455 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/krovelnye_mastiki/gidroizolyatsiya_metallicheskoy_i_shifernoy_krovli_elastomeric_911/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Мастика для гидроизолции кровли ELASTOMERIC 911
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 1455 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/krovelnye_mastiki/gidroizolyatsiya_metallicheskoy_i_shifernoy_krovli_elastomeric_911/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="popular-item-name">
-                Мастика для гидроизолции кровли ELASTOMERIC 911
-            </div>
-            <div class="popular-item-price">
-                <span>Цена:</span>
-                <span><b>от 1455 ₽</b></span>
-            </div>
-            <a href="#">
-                <button class="popular-item-btn">Подробнее</button>
-            </a>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-
-        <div class="popular-goods-item">
-            <div class="popular-item-img">
-                <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
-            </div>
-            <div class="popular-item-name">
-                Мастика для гидроизолции кровли ELASTOMERIC 911
-            </div>
-            <div class="popular-item-price">
-                <span>Цена:</span>
-                <span><b>от 1455 ₽</b></span>
-            </div>
-            <a href="#">
-                <button class="popular-item-btn">Подробнее</button>
-            </a>
-        </div>
-
-        <div class="popular-goods-item">
-            <div class="popular-item-img">
-                <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
-            </div>
-            <div class="popular-item-name">
-                Мастика для гидроизолции кровли ELASTOMERIC 911
-            </div>
-            <div class="popular-item-price">
-                <span>Цена:</span>
-                <span><b>от 1455 ₽</b></span>
-            </div>
-            <a href="#">
-                <button class="popular-item-btn">Подробнее</button>
-            </a>
-        </div>
-
-        <div class="popular-goods-item">
-            <div class="popular-item-img">
-                <img src="https://elastomeric.ru/upload/iblock/84d/q2tmvz2yg0obqfh9odx1xh69c1ts3l0o/polimernaya_mastika_krovelvnaya_elastomerik_911_3kg.jpg" alt="">
-            </div>
-            <div class="popular-item-name">
-                Мастика для гидроизолции кровли ELASTOMERIC 911
-            </div>
-            <div class="popular-item-price">
-                <span>Цена:</span>
-                <span><b>от 1455 ₽</b></span>
-            </div>
-            <a href="#">
-                <button class="popular-item-btn">Подробнее</button>
-            </a>
-        </div>
+        
     </div>
+
+    <div id="tab-kraski" class="popular-goods-cards popular-kraski">
+        <div class="swiper mySwiper-popular">
+            <div class="swiper-wrapper">
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/590/40qn6hjhkg06ggja4y2qo5xygdwhlw3y/akrilovaya_gidroizolyacionnaya_universal_naya_kraska_REZINKA_1,5kg.png" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Резиновая краска - REZINKA
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 731 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/akrilovye_kraski/rezinovaya_kraska_rezinka/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/590/40qn6hjhkg06ggja4y2qo5xygdwhlw3y/akrilovaya_gidroizolyacionnaya_universal_naya_kraska_REZINKA_1,5kg.png" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Резиновая краска - REZINKA
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 731 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/akrilovye_kraski/rezinovaya_kraska_rezinka/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/590/40qn6hjhkg06ggja4y2qo5xygdwhlw3y/akrilovaya_gidroizolyacionnaya_universal_naya_kraska_REZINKA_1,5kg.png" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Резиновая краска - REZINKA
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 731 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/akrilovye_kraski/rezinovaya_kraska_rezinka/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/590/40qn6hjhkg06ggja4y2qo5xygdwhlw3y/akrilovaya_gidroizolyacionnaya_universal_naya_kraska_REZINKA_1,5kg.png" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Резиновая краска - REZINKA
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 731 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/akrilovye_kraski/rezinovaya_kraska_rezinka/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/590/40qn6hjhkg06ggja4y2qo5xygdwhlw3y/akrilovaya_gidroizolyacionnaya_universal_naya_kraska_REZINKA_1,5kg.png" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Резиновая краска - REZINKA
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 731 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/akrilovye_kraski/rezinovaya_kraska_rezinka/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="popular-goods-item swiper-slide">
+                    <div class="popular-goods-item-inner">
+                        <div class="popular-item-img">
+                            <div class="popular-labels">
+                                <div class="popular-hit">Хит</div>
+                                <div class="popular-recomend">Рекомендуем</div>
+                            </div>
+                            <img src="https://elastomeric.ru/upload/iblock/590/40qn6hjhkg06ggja4y2qo5xygdwhlw3y/akrilovaya_gidroizolyacionnaya_universal_naya_kraska_REZINKA_1,5kg.png" alt="">
+                        </div>
+                        <div class="popular-item-info">
+                            <div class="popular-item-info-details">
+                                <div class="popular-item-name">
+                                    Резиновая краска - REZINKA
+                                </div>
+                                <div class="popular-item-price">
+                                    <span>Цена:</span>
+                                    <span><b>от 731 ₽</b></span>
+                                </div>
+                            </div>
+                            <a href="https://elastomeric.ru/catalog/akrilovye_kraski/rezinovaya_kraska_rezinka/">
+                                <button class="popular-item-btn">Подробнее</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        
+    </div>
+
+    
 </section>
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript">
 		AOS.init()
